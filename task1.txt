@@ -1,0 +1,26 @@
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT...
+
+1.JavaScript is an object-oriented programming language, so everything in JavaScript is an object.
+
+2.JavaScript object can have properties, which define the characheristics.
+
+3.In JavaScript, an object is a standalone entity, with properties and type.
+
+4.JavaScript objects are booleans,numbers,strings,dates,maths,regular expressions,arrays,functions,object. All Javascript values, except primitives are objects.
+
+5.Javascript variables can also contains many values. Objects are variables too, but objects acn contain many values.
+
+6.Object values are written as name:value pairs(name and values are seperated by colon)
+
+7.Javascript objects is a collection of named values.
+
+8.Javascript objects are contains for named values, called properties and methods.
+
+Ex:
+
+let person = {
+	first name : "john",
+	last name : "Doe",
+ 	age : 50,
+	eyecolor : "blue" 
+};

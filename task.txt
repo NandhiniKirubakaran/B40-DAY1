@@ -1,0 +1,24 @@
+DIFFERENCE BETWEEN HTTP1.1 VS HTTP2...
+
+HTTP1.1-->
+
+1.It's a human readable  data format(what's in the header file and what's in the body).
+
+2.It's load a single request for every TCP connection.
+
+3.It indroduced persistent connection,pipelining,cache-control and many other features.
+
+
+HTTP2-->
+
+1.It's wrap the request in a frame. that is not readable for human.
+
+2.Frames help us to compress more packets in compared to Http1.1.
+
+3.It allows multiplexing. so one TCP connection is required for multiple requests.
+
+4.Http2 avaoids network delay by using multiplexing.
+
+5.It's based on google's SPDY allows multiplexing and server push.
+
+6.It's much faster and more reliable than Http1.
